@@ -1,0 +1,23 @@
+name: Feature request
+description: An idea to make an add-on better
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Add-on
+      options:
+        - Vertical Timeline
+        - Node Dock
+        - Physically Based
+        - Phone Gyro
+        - DualSense Controller
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What you would like and how you would use it
+    validations:
+      required: true

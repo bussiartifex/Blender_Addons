@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "vertical_timeline"
+version = "1.7.1"
+name = "Vertical Timeline"
+tagline = "Vertical timeline as a viewport overlay or its own area"
+maintainer = "bussiartifex"
+type = "add-on"
+website = "https://github.com/bussiartifex/Blender_Addons"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2026 bussiartifex",
+]
+
+tags = ["Animation", "User Interface"]

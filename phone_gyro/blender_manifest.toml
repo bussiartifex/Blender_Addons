@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "phone_gyro"
+version = "1.4.1"
+name = "Phone Gyro"
+tagline = "Rotate camera, objects, bones or the view with your phone"
+maintainer = "bussiartifex"
+type = "add-on"
+website = "https://github.com/bussiartifex/Blender_Addons"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Camera", "Animation", "3D View"]
+
+[permissions]
+network = "Receive rotation data from your phone over Wi-Fi"

@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "dualsense_controller"
+version = "1.4.3"
+name = "DualSense Controller"
+tagline = "Fly the camera and viewport and move objects with a PS5 pad"
+maintainer = "bussiartifex"
+type = "add-on"
+website = "https://github.com/bussiartifex/Blender_Addons"
+
+blender_version_min = "4.3.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[permissions]
+network = "Install pygame and hidapi with pip"
+files = "Save the libraries in the config folder"

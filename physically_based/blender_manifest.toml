@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "physically_based"
+version = "2.0.4"
+name = "Physically Based"
+tagline = "Materials, lights and cameras from physicallybased.info"
+maintainer = "bussiartifex"
+type = "add-on"
+website = "https://github.com/bussiartifex/Blender_Addons"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Material", "Lighting", "Camera", "Node"]
+
+[permissions]
+network = "Download the databases from physicallybased.info"
+files = "Cache the downloaded databases on disk"

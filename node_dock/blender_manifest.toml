@@ -1,0 +1,23 @@
+schema_version = "1.0.0"
+
+id = "node_dock"
+version = "1.2.1"
+name = "Node Dock"
+tagline = "Dock to store and reuse nodes in the Geometry Node Editor"
+maintainer = "bussiartifex"
+type = "add-on"
+website = "https://github.com/bussiartifex/Blender_Addons"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2026 bussiartifex",
+]
+
+tags = ["Node", "User Interface"]
+
+[permissions]
+files = "Save and load stored nodes as .blend files"
